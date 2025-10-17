@@ -1,8 +1,9 @@
 body {
-    color:white;
+    color:rgb(248, 178, 248);
     background: black;
     margin: 0px;
     font-family: "Alan Sans", sans-serif;
+    margin-bottom: 100px;
 }
 
 header {
@@ -30,4 +31,33 @@ h1 {
 
 p {
     font-size: 20px;
+
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: o.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid green;
+}
+
+.categoria h2 {
+    color rgb(42, 122, 228);
+    
+    
 }
